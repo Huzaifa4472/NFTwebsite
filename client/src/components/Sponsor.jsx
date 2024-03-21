@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-
+import binance from "../assets/images/coins.png";
 const Container = styled.div`
   display: flex;
   justify-content: center;
@@ -17,9 +17,11 @@ const Post = styled.div`
   align-items: center;
   gap: 8px;
 `;
-const Icon = styled.div`
+const Icon = styled.img`
   color: #ff7a0080;
   font-size: 40px;
+  width: 40px;
+  height: 40px;
 `;
 const Text = styled.div`
   color: #ff7a0080;
@@ -35,11 +37,11 @@ const Sponsor = () => {
           <Text>HUOBI</Text>
         </Post>
         <Post>
-          <Icon />
+          <Icon src={ripple} />
           <Text>ripple</Text>
         </Post>
         <Post>
-          <Icon />
+          <Icon src={binance} />
           <Text>BINANCE</Text>
         </Post>
         <Post>
