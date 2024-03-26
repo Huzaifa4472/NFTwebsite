@@ -5,6 +5,8 @@ import Sponsor from "./components/Sponsor";
 import About from "./components/About";
 import ArtWork from "./components/ArtWork";
 import Artist from "./components/Artist";
+import Collections from "./components/Collections";
+import Footer from "./components/Footer";
 function App() {
   return (
     <>
@@ -15,6 +17,8 @@ function App() {
         <About />
         <ArtWork />
         <Artist />
+        <Collections />
+        <Footer />
       </BrowserRouter>
     </>
   );
